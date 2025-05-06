@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arjun Hari K</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 86);
+            color: white;
+            font-family: 'poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 78px;
+            background-color: rgb(0, 0, 68);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 20px;
+            cursor: pointer;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(102, 102, 243);
+            font-size: 1.05rem;
+        }
+
+        .left {
+            font-size: 1.6rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 30px 0;
+        }
+
+        .firstSection>div {
+            width: 50%;
+        }
+
+        .leftSection {
+            font-size: 3rem;
+            margin: 0 90px;
+        }
+
+        .leftSection buttons {
+            padding: 46px 0;
+        }
+
+        .leftSection .btn {
+            padding: 12px;
+            margin: 0 4px;
+            background-color: #000056;
+            color: white;
+            border: white 2px solid;
+            border-radius: 7px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        main hr {
+            border: 0;
+            background: #60209b;
+            height: 1.0px;
+            margin: 40px 84px;
+        }
+
+        .rightSection img {
+            width: 55%;
+            margin: 50px 100px;
+        }
+
+        .purple {
+            color: blueviolet;
+        }
+
+        #element {
+            color: blueviolet;
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.6rem;
+        }
+
+        .secondSection .box {
+            width: 80vw;
+            height: 2px;
+            background-color: white;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 2px;
+            background-color: white;
+            margin: 0 100px;
+        }
+
+        .image-top {
+            width: 25px;
+            position: relative;
+            top: -28px;
+            left: -5px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 63px;
+            width: 112px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 66px;
+            width: 161px;
+            color: gray;
+            font-size: 9px;
+        }
+
+        footer {
+            background-color: rgb(13 13 57);
+
+
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Arjun Hari K</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About Me</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">Hello, myself <span class="purple">Arjun</span>
+                <div>and I am passionate about</div>
+                <span id="element"></span>
+                <div class="button">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Github</button>
+                    <button class="btn">LinkedIn</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="bg.png" alt="">
+            </div>
+        </section>
+
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What have I done so far</span>
+            <h1>Projects</h1>
+
+            <div class="box">
+                <div class="vertical"><img class="image-top" src="AI.png" alt="">
+                    <div class="vertical-title">AI Chatbot with Django</div>
+                    <div class="vertical-desc">
+                        Developed a responsive AI chatbot using the Django framework, integrated with natural language
+                        processing to understand and reply to user inputs. Implemented features like session tracking,
+                        query handling, and dynamic response generation for an interactive experience.
+                    </div>
+                </div>
+                <div class="vertical"><img class="image-top" src="insta.png" alt="">
+                    <div class="vertical-title">Instagram Clone Web App</div>
+                    <div class="vertical-desc">
+                        Designed and built a social media web application that replicates core Instagram functionalities
+                        such as user registration, profile management, post uploads, like/comment systems, and a clean
+                        UI. Technologies used include Django, HTML/CSS, and JavaScript..
+                    </div>
+                </div>
+                <div class="vertical"><img class="image-top" src="website.png" alt="">
+                    <div class="vertical-title">Full-Stack E-commerce Website</div>
+                    <div class="vertical-desc">
+                        Created a fully functional e-commerce platform with product catalog, shopping cart, payment
+                        simulation, and admin dashboard. Ensured a smooth user experience with responsive design and
+                        implemented backend logic for order and inventory management.
+                    </div>
+                </div>
+                <div class="vertical"><img class="image-top" src="vd.png" alt="">
+                    <div class="vertical-title">Video Editing – Gameplays & Reels</div>
+                    <div class="vertical-desc">
+                        Edited high-quality gameplay videos and social media reels using tools like Adobe Premiere Pro
+                        and CapCut. Focused on dynamic transitions, audio syncing, visual effects, and pacing to enhance
+                        engagement across platforms like YouTube and Instagram.
+                    </div>
+                </div>
+                <div class="vertical"><img class="image-top" src="python.png" alt="">
+                    <div class="vertical-title">Web Scraping & Data Automation </div>
+                    <div class="vertical-desc">
+                        Built Python-based scripts using BeautifulSoup, Requests, and Selenium to scrape data from
+                        various websites. Automated data collection, cleaning, and storage processes for use in
+                        analytics dashboards and project pipelines.
+                    </div>
+                </div>
+                <div class="vertical"><img class="image-top" src="dev.png" alt="">
+                    <div class="vertical-title">DevOps & Cloud Deployment Projects </div>
+                    <div class="vertical-desc">
+                        Gained hands-on experience with DevOps practices including Docker containerization, GitHub
+                        Actions for CI/CD, and deploying applications on cloud platforms. Worked with version control,
+                        environment management, and automated testing for efficient development workflows.
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Arjun's Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About Me</li>
+                    <li>Projects</li>
+                    <li>Contact Me</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+
+            </div>
+            <div class="footer-fourth">
+
+            </div>
+        </div>
+        <div class="footer-rights">Copyrights&#169; arjunharik.me | All rights reserved</div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Software Developer', 'Web Developer', 'Web Designer', 'Video Editor', 'DevOps Trainee'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
