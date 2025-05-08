@@ -29,7 +29,7 @@
   <section class="home" id="home">
     <div class="home-content">
       <h1>Hi, It's <span>Arjun</span></h1>
-      <h3>I'm a <span>Web Developer</span></h3>
+      <span id="element"></span>
       <p>I'm a passionate Software Developer, Web Developer & Designer, Video Editor, and DevOps Trainee dedicated
         to building engaging digital solutions. From crafting sleek websites to editing compelling visuals and
         deploying cloud-ready apps, I bring creativity and precision to every project. Let's collaborate to turn
@@ -226,6 +226,14 @@
 
 
   <script src="script.js"></script>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Software Developer', 'Web Developer', 'Web Designer', 'Video Editor', 'DevOps Trainee'],
+      typeSpeed: 50,
+    });
+  </script>
 </body>
 
 </html>
