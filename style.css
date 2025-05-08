@@ -173,6 +173,10 @@ section{
     box-shadow: 0 0 25px var(--main-color);
 }
 
+.home-content .btn-group .btn{
+    display: none;
+}
+
 .btn-group{
     display: flex;
     gap: 1.5rem;
