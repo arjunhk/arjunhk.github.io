@@ -136,7 +136,7 @@ section{
     font-size: 1.5rem;
     font-weight: 500;
     line-height: 1.8;
-    justify-content: center;
+    text-align: center;
 }
 
 .home-img img{
@@ -238,7 +238,7 @@ section{
 
 .about-content p{
     font-size: 1.8rem;
-    justify-content: center;
+    align-items: center;
 }
 
 .about-content .btn{
