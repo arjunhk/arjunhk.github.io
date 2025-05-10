@@ -106,7 +106,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 15rem;
+    gap: 10rem;
 }
 
 .home-content {
@@ -119,7 +119,7 @@ section {
 .home-content h1 {
     font-size: 8rem;
     font-weight: 700;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     line-height: 1;
 }
 
